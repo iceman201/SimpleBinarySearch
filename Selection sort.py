@@ -14,7 +14,7 @@ class SelectionSort:
     def Selection(self):
         i = 0
         j = 0
-        for j in range(len(self.total)-1):
+        for j in range(len(self.total)):
             i = j + 1
             for i in range(len(self.total)):
                 if self.total[i] < self.total[j]:
